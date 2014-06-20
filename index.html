@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,400,900" rel="stylesheet" type="text/css">
+    <link href="/src/styles/demo.css" rel="stylesheet" type="text/css">
+    <link href="/dist/grunt/style.css" rel="stylesheet" type="text/css">
+    <link href="/dist/gulp/style-gulp.css" rel="stylesheet" type="text/css">
+</head>
+<body id="scoreboard">
+    <section>
+        <h1>Grunt <span>vs</span> Gulp</h1>
+        <h2>Task runner DeathMatch</h2>
+
+        <div class="challenge">
+            <h3>The Challenge</h3>
+            <p>
+                Using Grunt and Gulp, add a modern workflow that utilizes
+                <span>css precompilation</span>
+                , <span>javascript compression</span> and <span>image optimization</span>
+            </p>
+        </div>
+        <a class="button" href="#scoreboard">Accept Challenge</a>
+    </section>
+
+    <aside>
+        <h3>Score Board</h3>
+        <div>
+            <img src="/src/images/grunt.png" alt="" />
+            <ul class="grunt">
+                <li class="css-compile">css precompilation</li>
+                <li class="js-compile">javascript compression</li>
+                <li class="image-minified">image optimization</li>
+            </ul>
+        </div>
+        <div>
+            <img src="/src/images/gulp.png" alt="" />
+            <ul class="gulp">
+                <li class="css-compile">css precompilation</li>
+                <li class="js-compile">javascript compression</li>
+                <li class="image-minified">image optimization</li>
+            </ul>
+        </div>
+    </aside>
+
+    <script src="/dist/grunt/script.js" charset="utf-8"></script>
+    <script src="/dist/gulp/script-gulp.js" charset="utf-8"></script>
+</body>
+</html>
